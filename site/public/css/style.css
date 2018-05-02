@@ -109,3 +109,15 @@ main {
     grid-column: 6/10;
     margin: 5px;
 }
+
+.grillen_reklam1 {
+    grid-row: 2/11;
+    grid-column: 2/3;
+    background-color: peru;
+}
+
+.grillen_reklam2{
+    grid-row: 2/11;
+    grid-column: 9/10;
+    background-color: peru;
+}
