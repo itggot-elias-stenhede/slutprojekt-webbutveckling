@@ -90,17 +90,19 @@ main {
 }
 
 .index_img1 {
-    background-color: peru;
     grid-row: 2/6;
     grid-column: 2/6;
     margin: 5px;
+    background-image: url("../img/omsektionen1.jpg");
+    background-size: 100% 100%;
 }
 
 .index_img2 {
-    background-color: peru;
     grid-row: 6/10;
     grid-column: 2/6;
     margin: 5px;
+    background-image: url("../img/omsektionen2.jpg");
+    background-size: 100% 100%;
 }
 
 .index_textblock {
@@ -110,14 +112,49 @@ main {
     margin: 5px;
 }
 
-.grillen_reklam1 {
-    grid-row: 2/11;
+.reklam1 {
+    grid-row: 2/6;
     grid-column: 2/3;
-    background-color: peru;
+    background-image: url("../img/reklam1.jpg");
+    background-size: 100% 100%;
+    box-shadow: 0 0 1vw 0.3vw #cccccc;
 }
 
-.grillen_reklam2{
-    grid-row: 2/11;
+.reklam2{
+    grid-row: 2/6;
     grid-column: 9/10;
-    background-color: peru;
+    background-image: url("../img/reklam2.jpg");
+    background-size: 100% 100%;
+    box-shadow: 0 0 1vw 0.3vw #cccccc;
 }
+
+.reklam3{
+    grid-row: 7/11;
+    grid-column: 9/10;
+    background-image: url("../img/reklam3.jpg");
+    background-size: 100% 100%;
+    box-shadow: 0 0 1vw 0.3vw #cccccc;
+}
+
+.reklam4 {
+    grid-row: 7/11;
+    grid-column: 2/3;
+    background-image: url("../img/reklam4.jpg");
+    background-size: 100% 100%;
+    box-shadow: 0 0 1vw 0.3vw #cccccc;
+}
+
+.grillen1 {
+    grid-row: 2/6;
+    grid-column: 3/9;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    background-image: url("../img/grillen1.jpg");
+    background-size: 100% 100%;
+}
+
+
+
+
+
+
