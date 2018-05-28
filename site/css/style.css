@@ -97,6 +97,26 @@ footer {
     margin-left: 1vw;
 }
 
+.sprite {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-facebook_icon {
+    width: 60px;
+    height: 60px;
+    background-position: -5px -5px;
+}
+
+.sprite-instagram_icon {
+    width: 60px;
+    height: 60px;
+    background-position: -75px -5px;
+}
+
+
+
 main {
     grid-row: 2/8;
     grid-column: 1/11;
